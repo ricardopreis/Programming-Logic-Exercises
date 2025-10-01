@@ -15,5 +15,8 @@ public class Main {
         double adjustedValue = (value * 1.05); // increase the value with 5%
 
         System.out.printf("the adjusted value is: %.2f\n", adjustedValue); // print adjusted value
+
+        sc.close();
     }
+
 }
